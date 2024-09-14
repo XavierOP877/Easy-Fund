@@ -17,7 +17,7 @@ const App = () => {
         dispatch({ type: "SetContract", payload: contract });
       } catch (error) {
         console.error("Error connecting with MetaMask:", error);
-        // Handle error (e.g., show an error message to the user)
+        
       }
     };
 

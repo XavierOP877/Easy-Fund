@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <div className="bg-[#34495e] p-2 text-white rounded-sm shadow-md backdrop-filter backdrop-blur-xl bg-opacity-60 border-[1px] border-gray-500 flex sm:flex-row sm:justify-between sm:items-center flex-col gap-5 sm:gap-0">
-      <p className="font-medium">EasyFund DApp</p>
+      <p className="font-medium">AptFund</p>
       <p className="bg-green-500 p-2 rounded-[5px]">
         Account : <span>{HeadState?.Address}</span>{" "}
         <span className="text-black">||</span> Balance{" "}
